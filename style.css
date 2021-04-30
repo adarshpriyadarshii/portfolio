@@ -1,0 +1,122 @@
+
+body{
+  margin:0;
+}
+#about{
+  width: 100%;
+  height: 600px;
+  background-image:url(3856294.jpg);
+  background-size: 100% 100%;
+  text-align: center;
+  color:rgb(245, 245, 240);
+  padding: 2%;
+  font-family: 'Architects Daughter', cursive;
+}
+#header{
+   position: fixed;
+   color: rgb(243, 11, 11);
+   background-color: rgba(250, 250, 250,0);
+    width: 100%;
+    z-index:1;  
+    font-family: 'Lobster', cursive;
+}
+#acad{
+  background-color: rgb(155, 224, 217);
+  width: 100%;
+  height: 550px;
+  padding:5%;
+}
+#project{
+  background-color: rgb(211, 99, 142);
+  width: 100%;
+  height: 100%;
+  padding:5%;
+}
+#skills {
+  background-color: rgb(219, 155, 228);
+  width: 100%;
+  height: 500px;
+  padding:5% ;
+  
+}
+#skills li{
+  color: rgb(5, 5, 5);
+  padding: 5%;
+  display:flex;
+}
+#skills p{
+  color: rgb(228, 230, 235);
+  background-color: cornflowerblue;
+  padding: 2%;
+  display:flex;
+  font-size: 1.5em;
+  letter-spacing:1px;
+ 
+}
+
+li {
+    float: left;
+  }
+li a {
+    display: block;
+    color: rgb(238, 255, 5);
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    
+  }
+li a:hover {
+    background-color: rgb(237, 238, 158);
+    color:tomato;
+  }
+#footer {
+    background-color: rgb(14, 13, 13);
+    color:rgb(255, 255, 255);
+    font-family: 'Lobster', cursive;
+    font-size: 1em;
+    padding:2%;
+    
+    text-align: center;
+    animation: c 10s infinite;
+  }
+#footer a{
+  color:rgb(3, 3, 3)
+}
+#footer a:hover{
+  color: aliceblue;
+}
+#footer p{
+  padding-top: 15px;
+}
+
+.item{
+    display:inline;
+    padding:10px 20px;
+}
+.grades{
+  text-align: center;
+  color:white;
+}
+
+.social{
+    padding:10px 20px;
+   
+   text-decoration: none;
+}
+.abt{
+  padding-top: 10%;
+ 
+  text-align: center;
+}
+.card{
+  padding:10%;
+    margin:2%;
+}
+@keyframes c {
+  0%   {background-color: rgba(248, 8, 8, 0.6);}
+  25%  {background-color: rgba(70, 4, 250, 0.6);}
+  50% {background-color: rgba(40, 43, 38, 0.6);}
+  75%  {background-color: rgba(70, 4, 250, 0.6);}
+  100%   {background-color:  rgba(248, 8, 8, 0.6);}
+}
